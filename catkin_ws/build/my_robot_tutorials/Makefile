@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/rule:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/rule
+.PHONY : my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/rule
+
+# Convenience name for target.
+robot_news_radio_transmitter: my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/rule
+
+.PHONY : robot_news_radio_transmitter
+
+# fast build rule for target.
+robot_news_radio_transmitter/fast:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build
+.PHONY : robot_news_radio_transmitter/fast
+
+# Convenience name for target.
 my_robot_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd /home/phuctran/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : my_robot_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -434,6 +449,33 @@ src/my_first_cpp_node.cpp.s:
 	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/node_cpp.dir/build.make my_robot_tutorials/CMakeFiles/node_cpp.dir/src/my_first_cpp_node.cpp.s
 .PHONY : src/my_first_cpp_node.cpp.s
 
+src/robot_news_radio_transmitter.o: src/robot_news_radio_transmitter.cpp.o
+
+.PHONY : src/robot_news_radio_transmitter.o
+
+# target to build an object file
+src/robot_news_radio_transmitter.cpp.o:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/src/robot_news_radio_transmitter.cpp.o
+.PHONY : src/robot_news_radio_transmitter.cpp.o
+
+src/robot_news_radio_transmitter.i: src/robot_news_radio_transmitter.cpp.i
+
+.PHONY : src/robot_news_radio_transmitter.i
+
+# target to preprocess a source file
+src/robot_news_radio_transmitter.cpp.i:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/src/robot_news_radio_transmitter.cpp.i
+.PHONY : src/robot_news_radio_transmitter.cpp.i
+
+src/robot_news_radio_transmitter.s: src/robot_news_radio_transmitter.cpp.s
+
+.PHONY : src/robot_news_radio_transmitter.s
+
+# target to generate assembly for a file
+src/robot_news_radio_transmitter.cpp.s:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/src/robot_news_radio_transmitter.cpp.s
+.PHONY : src/robot_news_radio_transmitter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -444,6 +486,7 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... robot_news_radio_transmitter"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -466,6 +509,9 @@ help:
 	@echo "... src/my_first_cpp_node.o"
 	@echo "... src/my_first_cpp_node.i"
 	@echo "... src/my_first_cpp_node.s"
+	@echo "... src/robot_news_radio_transmitter.o"
+	@echo "... src/robot_news_radio_transmitter.i"
+	@echo "... src/robot_news_radio_transmitter.s"
 .PHONY : help
 
 

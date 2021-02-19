@@ -188,6 +188,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/DependInfo.cmake"
   "my_robot_tutorials/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake"
   "my_robot_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake"
   "my_robot_tutorials/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"

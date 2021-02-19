@@ -138,6 +138,8 @@ include_directories(
 add_executable(node_cpp src/my_first_cpp_node.cpp)
 target_link_libraries(node_cpp ${catkin_LIBRARIES})
 
+add_executable(robot_news_radio_transmitter src/robot_news_radio_transmitter.cpp)
+target_link_libraries(robot_news_radio_transmitter ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

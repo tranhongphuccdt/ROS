@@ -39,6 +39,7 @@
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/install/local.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/rebuild_cache.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/test.dir
+/home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/list_install_components.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/roscpp_generate_messages_py.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir
