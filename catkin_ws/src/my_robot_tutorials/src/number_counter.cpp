@@ -3,13 +3,15 @@
 
 ros::Publisher pub;
 
-void callback_receive_number(const std_msgs::Int64 Value)
+void callback_receive_number(const std_msgs::Int64& Value)
 {
-	ROS_INFO("Message received: %d",Value);
+	ROS_INFO("Message received: %d",Value.data);
+
+	std_msgs::Int64 msg{Value};
 
 	if (pub != nullptr )
 	{
-		pub.publish(Value);	
+		pub.publish(msg);	
 	}
 }
 
