@@ -141,8 +141,12 @@ target_link_libraries(node_cpp ${catkin_LIBRARIES})
 add_executable(robot_news_radio_transmitter src/robot_news_radio_transmitter.cpp)
 target_link_libraries(robot_news_radio_transmitter ${catkin_LIBRARIES})
 
+
 add_executable(smartphone src/smartphone_node.cpp)
 target_link_libraries(smartphone ${catkin_LIBRARIES})
+
+add_executable(number_count src/number_counter.cpp)
+target_link_libraries(number_count ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

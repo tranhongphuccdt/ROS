@@ -428,6 +428,19 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named number_count
+
+# Build rule for target.
+number_count: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_count
+.PHONY : number_count
+
+# fast build rule for target.
+number_count/fast:
+	$(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/build
+.PHONY : number_count/fast
+
+#=============================================================================
 # Target rules for targets named node_cpp
 
 # Build rule for target.
@@ -551,6 +564,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... number_count"
 	@echo "... node_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"

@@ -410,6 +410,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Convenience name for "all" pass in the directory.
 my_robot_tutorials/all: my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/all
 my_robot_tutorials/all: my_robot_tutorials/CMakeFiles/smartphone.dir/all
+my_robot_tutorials/all: my_robot_tutorials/CMakeFiles/number_count.dir/all
 my_robot_tutorials/all: my_robot_tutorials/CMakeFiles/node_cpp.dir/all
 
 .PHONY : my_robot_tutorials/all
@@ -426,6 +427,7 @@ my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/roscpp_generate_messages
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/number_count.dir/clean
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/node_cpp.dir/clean
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 my_robot_tutorials/clean: my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
@@ -448,7 +450,7 @@ my_robot_tutorials/preinstall:
 my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/all:
 	$(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/depend
 	$(MAKE) -f my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build.make my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phuctran/catkin_ws/build/CMakeFiles --progress-num=14,15 "Built target robot_news_radio_transmitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phuctran/catkin_ws/build/CMakeFiles --progress-num=16,17 "Built target robot_news_radio_transmitter"
 .PHONY : my_robot_tutorials/CMakeFiles/robot_news_radio_transmitter.dir/all
 
 # Include target in all.
@@ -549,7 +551,7 @@ clean: my_robot_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 my_robot_tutorials/CMakeFiles/smartphone.dir/all:
 	$(MAKE) -f my_robot_tutorials/CMakeFiles/smartphone.dir/build.make my_robot_tutorials/CMakeFiles/smartphone.dir/depend
 	$(MAKE) -f my_robot_tutorials/CMakeFiles/smartphone.dir/build.make my_robot_tutorials/CMakeFiles/smartphone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phuctran/catkin_ws/build/CMakeFiles --progress-num=16,17 "Built target smartphone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phuctran/catkin_ws/build/CMakeFiles --progress-num=18,19 "Built target smartphone"
 .PHONY : my_robot_tutorials/CMakeFiles/smartphone.dir/all
 
 # Include target in all.
@@ -800,6 +802,43 @@ my_robot_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: my_robot_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target my_robot_tutorials/CMakeFiles/number_count.dir
+
+# All Build rule for target.
+my_robot_tutorials/CMakeFiles/number_count.dir/all:
+	$(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/depend
+	$(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/phuctran/catkin_ws/build/CMakeFiles --progress-num=14,15 "Built target number_count"
+.PHONY : my_robot_tutorials/CMakeFiles/number_count.dir/all
+
+# Include target in all.
+all: my_robot_tutorials/CMakeFiles/number_count.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_robot_tutorials/CMakeFiles/number_count.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/phuctran/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 my_robot_tutorials/CMakeFiles/number_count.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/phuctran/catkin_ws/build/CMakeFiles 0
+.PHONY : my_robot_tutorials/CMakeFiles/number_count.dir/rule
+
+# Convenience name for target.
+number_count: my_robot_tutorials/CMakeFiles/number_count.dir/rule
+
+.PHONY : number_count
+
+# clean rule for target.
+my_robot_tutorials/CMakeFiles/number_count.dir/clean:
+	$(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/clean
+.PHONY : my_robot_tutorials/CMakeFiles/number_count.dir/clean
+
+# clean rule for target.
+clean: my_robot_tutorials/CMakeFiles/number_count.dir/clean
 
 .PHONY : clean
 

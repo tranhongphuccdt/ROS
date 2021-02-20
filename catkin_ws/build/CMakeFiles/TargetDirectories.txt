@@ -53,6 +53,7 @@
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/number_count.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/node_cpp.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 /home/phuctran/catkin_ws/build/my_robot_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir

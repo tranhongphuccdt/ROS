@@ -333,6 +333,21 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+my_robot_tutorials/CMakeFiles/number_count.dir/rule:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_tutorials/CMakeFiles/number_count.dir/rule
+.PHONY : my_robot_tutorials/CMakeFiles/number_count.dir/rule
+
+# Convenience name for target.
+number_count: my_robot_tutorials/CMakeFiles/number_count.dir/rule
+
+.PHONY : number_count
+
+# fast build rule for target.
+number_count/fast:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/build
+.PHONY : number_count/fast
+
+# Convenience name for target.
 my_robot_tutorials/CMakeFiles/node_cpp.dir/rule:
 	cd /home/phuctran/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_robot_tutorials/CMakeFiles/node_cpp.dir/rule
 .PHONY : my_robot_tutorials/CMakeFiles/node_cpp.dir/rule
@@ -464,6 +479,33 @@ src/my_first_cpp_node.cpp.s:
 	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/node_cpp.dir/build.make my_robot_tutorials/CMakeFiles/node_cpp.dir/src/my_first_cpp_node.cpp.s
 .PHONY : src/my_first_cpp_node.cpp.s
 
+src/number_counter.o: src/number_counter.cpp.o
+
+.PHONY : src/number_counter.o
+
+# target to build an object file
+src/number_counter.cpp.o:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/src/number_counter.cpp.o
+.PHONY : src/number_counter.cpp.o
+
+src/number_counter.i: src/number_counter.cpp.i
+
+.PHONY : src/number_counter.i
+
+# target to preprocess a source file
+src/number_counter.cpp.i:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/src/number_counter.cpp.i
+.PHONY : src/number_counter.cpp.i
+
+src/number_counter.s: src/number_counter.cpp.s
+
+.PHONY : src/number_counter.s
+
+# target to generate assembly for a file
+src/number_counter.cpp.s:
+	cd /home/phuctran/catkin_ws/build && $(MAKE) -f my_robot_tutorials/CMakeFiles/number_count.dir/build.make my_robot_tutorials/CMakeFiles/number_count.dir/src/number_counter.cpp.s
+.PHONY : src/number_counter.cpp.s
+
 src/robot_news_radio_transmitter.o: src/robot_news_radio_transmitter.cpp.o
 
 .PHONY : src/robot_news_radio_transmitter.o
@@ -542,6 +584,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... number_count"
 	@echo "... node_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -552,6 +595,9 @@ help:
 	@echo "... src/my_first_cpp_node.o"
 	@echo "... src/my_first_cpp_node.i"
 	@echo "... src/my_first_cpp_node.s"
+	@echo "... src/number_counter.o"
+	@echo "... src/number_counter.i"
+	@echo "... src/number_counter.s"
 	@echo "... src/robot_news_radio_transmitter.o"
 	@echo "... src/robot_news_radio_transmitter.i"
 	@echo "... src/robot_news_radio_transmitter.s"
